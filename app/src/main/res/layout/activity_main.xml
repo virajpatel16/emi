@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI LOAN CALCULATOR"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/pa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="PERSONAL AMOUNT"
+        android:textColor="@color/teal_700"
+        android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/ma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="MONTHALY RATE  INTREST"
+            android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="NUMBER OF MONTHS"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL"
+        android:textSize="25dp"/>
+
+
+
+</LinearLayout>
